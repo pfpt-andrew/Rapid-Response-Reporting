@@ -16,6 +16,9 @@ These are provided in three formats:
 3. Sankey Images - These vectorized graphics show "biggest bang for your buck" for each malware family.
   -> Moving left to right you have 1. Defensive Control 2. The concerned technique 3. Data source required to detect said technique.
   
+  <img width="851" alt="image" src="https://user-images.githubusercontent.com/93224853/160142902-57bf7b39-8646-4155-9da8-657d9b390f4d.png">
+
+  
 Due credits:  I got this idea from Andy Applebaum and Jamie Williams and the rest of the ATT&CK team based upon a series of blog post from back in 2019:
 https://medium.com/mitre-attack/visualizing-attack-f5e1766b42a6 While it isn't an entirely novel idea (see the blog), it is the most complete corpus of malware family documents that I have found to date.
 
