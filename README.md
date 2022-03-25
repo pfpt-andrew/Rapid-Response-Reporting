@@ -17,7 +17,7 @@ These are provided in three formats:
   -> Moving left to right you have 1. Defensive Control 2. The concerned technique 3. Data source required to detect said technique.
   
 Due credits:  I got this idea from Andy Applebaum and Jamie Williams and the rest of the ATT&CK team based upon a series of blog post from back in 2019:
-https://medium.com/mitre-attack/visualizing-attack-f5e1766b42a6
+https://medium.com/mitre-attack/visualizing-attack-f5e1766b42a6 While it isn't an entirely novel idea (see the blog), it is the most complete corpus of malware family documents that I have found to date.
 
 Also this data was generated based off of https://github.com/nshalabi/ATTACK-Tools/.  Without @nshalabi's sql database joining this data would have been much more difficult.
 
@@ -26,3 +26,5 @@ These were generated at a point in time and not evergreen.  Make sure to double 
 
 Why release them now:?
 I previously worked for many years in a DFIR/CSIRT capability.  I now am working as a Senior Threat Researcher and it felt selfish to sit on this set of data.
+
+I've also included my terrible Powershell script I used to produce them. It wasn't ever intended to see the light of day so I didn't follow any standards so please don't judge me.
