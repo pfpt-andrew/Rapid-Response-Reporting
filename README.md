@@ -1,3 +1,12 @@
+🎉🎉🎉🎉##Update!:  Rapid-Response-Reporting v2.0.0 released.  
+
+🧐What is new?:  Added OWASP-OAT canned report tables!  First if you aren't familiar with OWASP-OAT check it out here:  https://owasp.org/www-project-automated-threats-to-web-applications/
+
+🧠How do i use it?: Go to Automated Threats\docs\threat_definitions.csv, find what type of automated threat coincideds with the activity in your alert or incident.  Then go and grab the oat-###.csv that applies and 🥷 now you have a COMPLETE set of remediations that take you from left to right starting with engineering and ending with CIT sharing.
+
+🤖:Why would i use this?:  Are you a defender who experiences scraping, cred stuffing, brute forcing, etc?  Do you struggle with complete and consistent messaging or redundant report writing? This is for you...backed by industry standards!
+
+
 #Rapid-Response-Reporting
 🔮RRR (Rapid Response Reporting) is a collection of Incident Response Report objects.  They are designed to help incident responders provide accurate and timely feedback in the form of reports.
 
