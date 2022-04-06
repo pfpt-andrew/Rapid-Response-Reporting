@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-002,Value,"Consider decreasing the attractiveness of tokens in the application, by removing them, reducing their value, or limiting their life or scope of use. Consider disallowing vouchers schemes."
+OAT-002,Requirements,"Document all locations where coupon numbers, voucher codes, discount tokens and similar elements are used in the application. Specify limits on acceptable use of each function related each token; define additional requirements."
+OAT-002,Testing,Define test cases for OAT-002 Token Cracking that confirm the application will detect and/or prevent users trying to enumerate and/or use tokens at a disproportionate scale.
+OAT-002,Capacity,Not applicable
+OAT-002,Obfuscation,"Consider randomising the content and URLs of token submission pages, tying these changes to the individual user’s session, verifying the changes at each token-related request, and restricting any identified automated usage."
+OAT-002,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-002,Reputation,Consider identifying and restricting automated usage by reputation methods.
+OAT-002,Authentication,"Consider requiring identity authentication, re-authentication or some other increased authentication assurance for access to areas where tokens are generated or consumed."
+OAT-002,Rate,Limit the number of failed token submission attempts per session/user/IP address/device/fingerprint.
+OAT-002,Monitoring,"Log successful and failed token submissions; monitor rates relative to normal activity and also relative the usage of the rest of the application. Where applicable, track token creation trends."
+OAT-002,Instrumentation,"Consider blocking or delaying access by users in a particular session, IP address/range or geolocation once Monitoring has identified a real Token Cracking attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-002,Contract,"Define T&Cs to explicitly ban users from misusing the application to undertake Token Cracking, and similar activities. Define service limits for any token validation or creation APIs."
+OAT-002,Response,Define actions to be taken in the event a Token Cracking attack is detected.
+OAT-002,Sharing,Participate in relevant threat intelligence exchanges and contribute attack data to sector-wide sharing systems.

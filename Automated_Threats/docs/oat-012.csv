@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-012,Value,Decrease the number of and/or availability of higher-value items.
+OAT-012,Requirements,"Document acceptable use of relevant functions (e.g. payment, refund); define additional requirements."
+OAT-012,Testing,Define test cases for OAT-012 Cashing Out that confirm the application will detect and/or prevent users attempting to cash out
+OAT-012,Capacity,Not applicable
+OAT-012,Obfuscation,"Consider randomising the content and URLs of relevant pages, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-012,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-012,Reputation,"Consider identifying and restricting automated usage by reputation methods. In particular, consider using geolocation and/or IP address block lists to prevent access to relevant parts of the application."
+OAT-012,Authentication,"Consider removing guest checkout and/or requiring greater identity authentication for customers. Consider implementing 3D Secure for some or all card payments. Consider requiring increased verification and out-of-band confirmation of all changes to account properties (e.g. email addresses, telephone numbers, physical addresses, bank accounts)."
+OAT-012,Rate,Consider limiting the number of payments/transactions per session/user/IP address/device/fingerprint.
+OAT-012,Monitoring,"Log abandoned baskets/transactions; monitor rates. Log basket/transaction payment amount (and currency); monitor average value trends. Identify and log higher-value transactions. Log changes to asset destination (e.g. delivery addresses, recipient bank account); monitor activity related to transactions occurring soon after such events have occurred. Track chargeback and returns amounts and trends."
+OAT-012,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation once Monitoring has identified a real Cashing Out attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-012,Contract,Not applicable
+OAT-012,Response,Define actions to be taken in the event a Cashing Out attack is detected.
+OAT-012,Sharing,Participate in threat intelligence exchanges and contribute attack data to sector-wide sharing systems. Participate in any fraud detection and prevention arrangements offered by the payment service provider or merchant bank.

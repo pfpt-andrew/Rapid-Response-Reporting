@@ -1,0 +1,22 @@
+﻿Identity Code,authentication credentials,payment cardholder data,other financial data,medical data,other personal data,intellectual property,other business data,public information
+OAT-001,n,y,n,n,n,n,n,n
+OAT-002,n,n,n,n,n,n,y,n
+OAT-003,n,n,n,n,n,n,y,n
+OAT-004,n,n,n,n,n,n,n,y
+OAT-005,n,n,n,n,n,n,n,n
+OAT-006,n,n,n,n,n,n,y,n
+OAT-007,y,n,n,n,n,n,n,n
+OAT-008,y,n,n,n,n,n,n,n
+OAT-009,y,n,n,n,n,n,n,n
+OAT-010,n,y,n,n,n,n,n,n
+OAT-011,y,y,y,y,y,y,y,y
+OAT-012,y,y,y,n,n,n,n,n
+OAT-013,n,n,y,n,n,n,y,n
+OAT-014,n,n,n,n,n,n,y,y
+OAT-015,n,n,n,n,n,n,n,n
+OAT-016,n,n,n,n,y,n,y,y
+OAT-017,n,n,n,n,n,n,y,y
+OAT-018,n,n,n,n,n,n,y,y
+OAT-019,y,n,n,n,n,n,y,n
+OAT-020,y,y,y,y,y,n,y,n
+OAT-021,n,n,n,n,n,n,n,n

@@ -1,0 +1,22 @@
+﻿Grouping,Identity Code,Name,Defining Characteristics
+Main,OAT-001,Carding,Multiple payment authorisation attempts used to verify the validity of bulk stolen payment card data
+Main,OAT-002,Token Cracking,"Mass enumeration of coupon numbers, voucher codes, discount tokens, etc"
+Main,OAT-003,Ad Fraud,Flase clicks and fraudulent display of web-placed advertisments
+Main,OAT-004,Fingerprinting,Elicit information about the supporting software and framework types and versions
+Main,OAT-005,Scalping,Obtain limited-availability and/or preferred goods/services by unfair methods
+Main,OAT-006,Expediting,"Perform actions to hasten progress of usually slow, tedious or time-consuming actions"
+Main,OAT-007,Credential Cracking,Identify valid login credentials by trying different values for usernames and / or passwords
+Main,OAT-008,Credential Stuffing,Mass log in attempts used to verify the validity of stolen username/password pairs
+Main,OAT-009,CAPTCHA Defeat,Solve anti-automation tests
+Main,OAT-010,Card Cracking,Identify missing start/expiry dates and security codes for stolen payment card data by trying different values
+Main,OAT-011,Scraping,Collect application content and/or other data for use elsewhere
+Main,OAT-012,Cashing Out,Buy goods or obtain cash utilizing validated stolen payment card or other user account data
+Main,OAT-013,Sniping,Last minute bid or offer for goods or services
+Main,OAT-014,Vulnerability Scanning,Crawl and fuzz application to identify weaknesses and possible vulnerabilities
+Main,OAT-015,Denial of Service,"Target resources of the application and database servers, or individual user accounts, to achieve denail of service (DoS)"
+Main,OAT-016,Skewing,"Repeated link clicks, page requests or form submissions intended to alter some metric"
+Main,OAT-017,Spamming,"Malicious or questionable information addition that appears in public or private content, databases or user messages"
+Main,OAT-018,Footprinting,Probe and explore application to identify its constituents and properties
+Main,OAT-019,Account Creation,Creates multiple accounts for subsequent misuse
+Main,OAT-020,Account Aggregation,Use by an intermediary application that collects together multiple accounts and interacts on their behalf
+Main,OAT-021,Denial of Inventory,Deplete goods or services stock without ever completing the purchase or committing to the transaction

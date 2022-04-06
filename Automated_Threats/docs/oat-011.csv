@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-011,Value,"Consider using aggregation, and/or anonymisation and/or pseudonymisation. Consider data minimisation such as reducing the data fields collected and subsequently output, and/or reducing the retention period, permanent deletion of data no longer required. Consider outputting truncated, masked, abbreviated or encrypted data. Consider penalising access to data."
+OAT-011,Requirements,Document what is acceptable usage and what is unacceptable scraping; define additional requirements.
+OAT-011,Testing,Define test cases for OAT-011 Scraping that confirm the application will detect and/or prevent users attempting to scrape content and/or other data.
+OAT-011,Capacity,Not applicable
+OAT-011,Obfuscation,"Consider randomising the content and URLs of content, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-011,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-011,Reputation,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-011,Authentication,Consider requiring greater identity authentication for access. Consider pre-registering users and implementing strong authentication for access to any exposed APIs.
+OAT-011,Rate,Consider adding random delays in responses. Consider capping rate of application use per session/user/ IP address/device/fingerprint.
+OAT-011,Monitoring,"Log request timestamps and rate of data access; monitor for faster-than-average access, repeated access, and non-normal access patterns."
+OAT-011,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation once Monitoring has identified a real Scraping attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-011,Contract,Define T&Cs to explicitly define acceptable use that excludes Scraping.
+OAT-011,Response,Define actions to be taken in the event a Scraping attack is detected.
+OAT-011,Sharing,Participate in threat intelligence exchanges and contribute attack data to sector-wide sharing systems.

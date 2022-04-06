@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-018,Value,Not applicable
+OAT-018,Requirements,Not applicable
+OAT-018,Testing,Not applicable
+OAT-018,Capacity,Not applicable
+OAT-018,Obfuscation,"Consider randomising URLs. Consider preventing indexing by search engines. Consider minimising information leakage through HTTP errors, error messages, URL paths, and file extensions."
+OAT-018,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-018,Reputation,"Consider denying or restricting access from IP addresses known to be vulnerability scanners, web crawlers or cloud providers."
+OAT-018,Authentication,Consider requiring normal or strong authentication for some or all parts of the application.
+OAT-018,Rate,Consider adding time delays in responses or returning an error code such as 503 to higher usage user requests.
+OAT-018,Monitoring,Not applicable
+OAT-018,Instrumentation,Consider blocking users for non-normal use of the application. Consider honeypot detection points at URLs no normal users would ever navigate to.
+OAT-018,Contract,Not applicable
+OAT-018,Response,Not applicable
+OAT-018,Sharing,Not applicable

@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-009,Value,Not applicable
+OAT-009,Requirements,Document acceptable use of CAPTCHA; define additional requirements.
+OAT-009,Testing,Define test cases for OAT-009 CAPTCHA Defeat that confirm the application will detect and/or prevent users attempting to automate CAPTCHA breaking/solving.
+OAT-009,Capacity,Not applicable
+OAT-009,Obfuscation,"Consider randomising the content and URLs of forms including CAPTCHA elements, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-009,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-009,Reputation,Consider identifying and restricting automated usage by reputation methods.
+OAT-009,Authentication,Consider increasing CAPTCHA complexity. Consider replacing CAPTCHA with some form of identity authentication or require re-authentication.
+OAT-009,Rate,Consider capping the rate of CAPTCHA verification per session/user/IP address/device/fingerprint.
+OAT-009,Monitoring,Log CAPTCHA generation and solution speed and usage; monitor rate of use relative to typical usage. Correlate CAPTCHA solving rate against other indicators of suspicious/fraudulent account usage.
+OAT-009,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation once Monitoring has identified a real CAPTCHA Defeat attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-009,Contract,Define T&Cs to explicitly define acceptable use.
+OAT-009,Response,Define actions to be taken in the event a CAPTCHA Defeat attack is detected.
+OAT-009,Sharing,Not applicable

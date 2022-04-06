@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-007,Value,Not applicable
+OAT-007,Requirements,Document acceptable use of authentication functions; define additional requirements.
+OAT-007,Testing,Define test cases for OAT-007 Credential Cracking that confirm the application will detect and/or prevent users attempting to guess usernames and/or passwords.
+OAT-007,Capacity,Not applicable
+OAT-007,Obfuscation,"Consider randomising the content and URLs of authentication form pages, tying these changes to the individual user’s session, verifying the changes at each authentication step, and restricting any identified automated usage."
+OAT-007,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-007,Reputation,"Consider identifying and restricting automated usage by reputation methods. In particular, consider using geolocation and/or IP address block lists to prevent access to authentication functions."
+OAT-007,Authentication,"Consider preventing users from selecting either common or weak passwords. Consider performing incremental account lock out to accounts with suspected login attempts. Consider enhancing authentication by adding CAPTCHA, or adding application-specific challenge questions, or using strong authentication such as two factor authentication. Consider stricter measures for user accounts with greater permissions (e.g. staff, moderators, content administrators, system accounts). Consider preregistering users and implementing strong authentication for access to any exposed authentication APIs."
+OAT-007,Rate,Limit the number of authentication attempts (success and failure) per session/user/IP address/device/ fingerprint.
+OAT-007,Monitoring,"Log successful and unsuccessful authentication attempts per username/IP/session across all functions (register, logon, password reset, password change, username change, re-authentication, etc) and channels (web, mobile app, call centre, etc); monitor rates. Monitor geolocation relative to previous logins for each user. Identify account hijacking reports from customers; monitor trends."
+OAT-007,Instrumentation,"Consider blocking or delaying access by users in a particular session, IP address/range or geolocation or everyone once Monitoring has identified a real Credential Cracking attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-007,Contract,Define service limits for any authentication APIs.
+OAT-007,Response,Define actions to be taken in the event a Credential Cracking attack is detected.
+OAT-007,Sharing,Participate in threat intelligence exchanges and contribute attack data to sector-wide sharing systems.

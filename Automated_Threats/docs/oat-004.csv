@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-004,Value,"Remove or mask system information leakages (e.g. HTTP headers, error messages, URL paths, and file extensions)."
+OAT-004,Requirements,Not applicable
+OAT-004,Testing,Utilise automated scanners to ensure no information on application components is being leaked.
+OAT-004,Capacity,Not applicable
+OAT-004,Obfuscation,Consider masking or changing or removing software and framework details from all types of responses (e.g .system details in HTTP headers can be removed if using an HTTP proxy or by configuring the web server). Consider preventing indexing by search engines.
+OAT-004,Fingerprinting,Not applicable
+OAT-004,Reputation,Consider restricting access from IP addresses with low reputation.
+OAT-004,Authentication,Consider requiring normal or strong authentication for some or all parts of the application.
+OAT-004,Rate,Not applicable
+OAT-004,Monitoring,Not applicable
+OAT-004,Instrumentation,Not applicable
+OAT-004,Contract,Not applicable
+OAT-004,Response,Not applicable
+OAT-004,Sharing,Not applicable

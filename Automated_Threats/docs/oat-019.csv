@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-019,Value,"Consider limiting the functionality and/or capacity available to newly, and/or recently created, accounts."
+OAT-019,Requirements,Document acceptable use of all possible account creation functions; define additional requirements.
+OAT-019,Testing,Define test cases for OAT-019 Account Creation that confirm the application will detect and/or prevent users attempting to create accounts in bulk.
+OAT-019,Capacity,Not applicable
+OAT-019,Obfuscation,"Consider randomising the content and URLs of account creation form pages, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-019,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-019,Reputation,"Consider removing self-registration to existing known people (e.g. approved suppliers and/or customers). Consider identifying and restricting automated usage by reputation methods. In particular, consider using geolocation and/or IP address block lists to prevent access to registration/sign-up or to apply enhanced authentication requirements. Consider using reputation services (e.g. IP address, email address, postal address) to assist in"
+OAT-019,Authentication,"Consider removing self-registration. Consider not permitting social media login. Consider out-of-band verification (e.g. email address verification). Consider enhancing authentication by adding CAPTCHA, or adding application-specific challenge questions, or using strong authentication such as two factor authentication. Consider pre-registering users and implementing strong authentication for access to any exposed authentication APIs."
+OAT-019,Rate,Limit the rate of creation of accounts.
+OAT-019,Monitoring,"Log application usage by function for each user; monitor rate of application use relative to typical usage. Log account creation dates/times; monitor period from time of account creation to first use, and also monitor completeness of optional account information, and whether any profile text or images are generic, re-used or copied from elsewhere."
+OAT-019,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation or everyone once Monitoring has identified a real Account Creation attack, or other anomalous behaviour (possibly much later) that has identified the user as an attacker."
+OAT-019,Contract,Define T&Cs to explicitly define acceptable use. Define service limits for any account creation APIs.
+OAT-019,Response,Define actions to be taken in the event an Account Creation attack is detected.
+OAT-019,Sharing,Participate in threat intelligence exchanges and contribute Account Creation attack data to sector-wide sharing systems.

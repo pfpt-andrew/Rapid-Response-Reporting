@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-015,Value,"Consider reducing and/or eliminating resource intensive functionality, or using alternatives."
+OAT-015,Requirements,"Document average and peak (at different durations) usage of all functions and paths, including APIs, included content and third-party components and services, for all types of permitted automated robot activity as well as normal user usage during standard, seasonal, and other relevant scenarios. Define additional requirements."
+OAT-015,Testing,"Define test cases for OAT-015 Denial of Service that confirm the application will detect and/or prevent users performing application denial of service. These test cases should include attacks against particularly susceptible functions, against user accounts, or against other application system resources."
+OAT-015,Capacity,"Identify all capacity pinch points, for both normal and peak usage. Provide adequate greater capacity for system components based on risk. This may include providing specific API or data feeds for data provision, application configuration, SSL configuration, designing lowly-loaded systems, load balancing, auto-scaling, caching, content delivery networks, SSL accelerators/terminators, XML gateways, content switching, query caching, query optimisation, application delivery controller, denial of service (DoS) protection service, etc."
+OAT-015,Obfuscation,Not applicable
+OAT-015,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-015,Reputation,Consider identifying and restricting automated usage by reputation methods.
+OAT-015,Authentication,Consider requiring authentication or enhanced authentication for high resource usage aspects of the application.
+OAT-015,Rate,Consider limiting availability and/or rate of usage of high resource usage aspects of the application.
+OAT-015,Monitoring,"Log application site usage, account lockout, product/service availability, critical resource usage, etc; monitor against multiple alerting thresholds as well as changes to trends."
+OAT-015,Instrumentation,"Consider blocking or delaying application access by individual users or groups of users based on behaviour and/or session, and/or IP address/range and/or geolocation once Monitoring has identified a real Denial of Service attack, or other anomalous behaviour that has identified the user(s) as an attacker(s). Consider disabling at resource intensive functions progressively to maintain availability of other aspects."
+OAT-015,Contract,"Define acceptable use and service limits for the application, including any APIs and related components."
+OAT-015,Response,Define actions to be taken in the event a Denial of Service attack is detected.
+OAT-015,Sharing,Participate in threat intelligence exchanges and contribute Denial of Service attack data to sector-wide sharing systems.

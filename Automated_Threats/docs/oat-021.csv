@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-021,Value,Consider requiring a deposit to reserve or book the goods/services. Consider providing incentives for quicker progression through checkout to payment.
+OAT-021,Requirements,Document allocation/assignment policies and related settings/rules for identified applicable capacities and time outs. Consider how settings/limits should vary for seasonal or time-limited or low-availability stock.
+OAT-021,Testing,Define test cases for OAT-021 Denial of Inventory that confirm the application will detect and/or prevent users attempting to remove inventory/stock from availability and hold onto it without paying/completing.
+OAT-021,Capacity,Not applicable
+OAT-021,Obfuscation,Consider randomising the content and URLs of product/catalogue pages and addition to basket/ assignment processes.
+OAT-021,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-021,Reputation,Consider identifying and restricting automated usage by reputational methods.
+OAT-021,Authentication,Consider requiring greater identity authentication before goods/services can be allocated/assigned. Empty all items from baskets of anonymous users when their session expires.
+OAT-021,Rate,"Inform users of item holding time-outs. Consider limiting individual basket capacities. Consider increasing basket and basket item time-outs, or making these dynamic in response to demand and/or expiration dates. Consider reducing the time period reservation allocations remain valid. Consider disabling cash purchases for goods/services at certain times. Consider moving older baskets to wish lists. Consider limiting addition/re-addition to basket/allocation/assignment mechanisms per user, per group of users, per IP address/range, per device ID/fingerprint etc."
+OAT-021,Monitoring,"Log inventory allocation and de-allocation for each good/service item, log per session allocation, individually and in aggregate, across all channels (web, mobile app, call centre, physical retail stores, etc). Log drop-out rates for reservation/click & collect/pay by cash services. Identify stock issues raised by customers/clients/citizens; monitor trends."
+OAT-021,Instrumentation,"Consider emptying or disabling baskets etc in a particular session, IP address range or geolocation once Monitoring has identified a real Denial of Inventory attack, or other anomalous behaviour that has identified the user as an attacker"
+OAT-021,Contract,Define T&Cs to explicitly ban users from using the application in a way that leads to denial of inventory. Use contracts to prohibit employees and partners from undertaking or instigating such attacks against competitors.
+OAT-021,Response,Define actions to be taken in the event a Denial of Inventory attack is detected.
+OAT-021,Sharing,Participate in threat intelligence exchanges.

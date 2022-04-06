@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-013,Value,"Consider penalising later bets/bids/purchases, and/or encouraging earlier bets/bids/purchases."
+OAT-013,Requirements,"Document acceptable use of relevant functions (e.g. bet, bid, purchase); define additional requirements."
+OAT-013,Testing,Define test cases for OAT-013 Sniping that confirm the application will detect and/or prevent users attempting to make last minute bids for goods or services.
+OAT-013,Capacity,Not applicable
+OAT-013,Obfuscation,"Randomise the content and URLs, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-013,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-013,Reputation,"Consider identifying and restricting automated usage by reputation methods. In particular, consider using geolocation and/or IP address block lists and/or reputation services to prevent access to the good/service allocation functions."
+OAT-013,Authentication,"Consider requiring identity authentication, re-authentication or some other increased authentication assurance for access to relevant processes for all users, or when there is a suspicion that Sniping is occurring."
+OAT-013,Rate,Consider not publishing or increasing uncertainty in the final closing time for bets/bids/purchase.
+OAT-013,Monitoring,Log process step completion timestamps and rate of data entry; monitor for bypassing of earlier steps and/or longer-than-usual delays in completing final step. Log successful and unsuccessful bets/bids/ purchases; monitor for unusual trends or and higher-than-normal success rate.
+OAT-013,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation once Monitoring has identified a real Sniping attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-013,Contract,Define T&Cs to explicitly define acceptable use.
+OAT-013,Response,Define actions to be taken in the event a Sniping attack is detected.
+OAT-013,Sharing,Participate in threat intelligence exchanges and contribute Sniping attack data to sector-wide sharing systems.

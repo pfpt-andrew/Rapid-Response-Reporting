@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-014,Value,"Develop and deploy applications securely, identify and fix security issues as soon and quickly as possible."
+OAT-014,Requirements,Not applicable
+OAT-014,Testing,Define test cases for OAT-014 Vulnerability Scanning that confirm the application will detect and/or prevent users scanning it for vulnerabilities.
+OAT-014,Capacity,Not applicable
+OAT-014,Obfuscation,Consider making the application behaviour and/or structure so that vulnerability scanners/crawlers/ testers are seemingly unable to ever complete a full site scan and/or unable to access some parts of an application.
+OAT-014,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-014,Reputation,Consider denying or restricting access from IP addresses known to be vulnerability scanners or cloud providers.
+OAT-014,Authentication,Consider requiring normal or strong authentication for some or all parts of the application. Consider requiring periodic and/or aspect-based reauthentication.
+OAT-014,Rate,Limit the number of input validation and/or authorisation failures per session/user/IP address/device/ fingerprint.
+OAT-014,Monitoring,"Log successful and failed authentications, authorisation failures, input validation failures; monitor rates relative to normal activity and also relative the usage of the rest of the application."
+OAT-014,Instrumentation,"Implement user and system wide trend detection points together with request, input validation and authorisation detection points. Consider blocking users or logging them out for non-normal use of the application."
+OAT-014,Contract,"Define T&Cs to explicitly ban users from scanning the application for vulnerabilities, and consider requiring opt-in agreement to these before the application can be use. Define approved methods of engagement for authorised vulnerability scanning."
+OAT-014,Response,Define actions to be taken in the event a Vulnerability Scanning attack is detected.
+OAT-014,Sharing,Participate in relevant threat intelligence sharing initiatives.

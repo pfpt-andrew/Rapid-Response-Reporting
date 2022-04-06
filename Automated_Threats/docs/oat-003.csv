@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-003,Value,Consider limiting the maximum benefit offered in defined time periods. Consider using multi-touch attribution instead of last click. Consider not hosting advertisements in some parts of the application. Consider serving “house” or low-value ads to suspect requests
+OAT-003,Requirements,"Document all types, locations, revenue methods, and any providers of advertising. Define logging requirements that capture sufficient information for thorough analysis of conversion and common patterns. Define downstream workflow systems to determine quality of clicks or impressions. Have downstream systems consume information produced by the company’s own systems as well as information fed by outside vendors – such as IP reputation – in determining quality of clicks or impressions. Define additional requirements."
+OAT-003,Testing,Define test cases for OAT-003 Ad Fraud that confirm a variety of advertising-related fraud techniques are detectable.
+OAT-003,Capacity,Not applicable
+OAT-003,Obfuscation,Not applicable
+OAT-003,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics and using the information to reject or restrict value of related clicks/impressions.
+OAT-003,Reputation,Subscribe to IP reputation data and use it as a factor in determining click or impression quality.
+OAT-003,Authentication,"Consider requiring identity authentication, re-authentication or some other increased authentication assurance in areas where advertisements are displayed so that clicks, impressions, etc can be more easily attributed."
+OAT-003,Rate,Not applicable
+OAT-003,Monitoring,"Log impressions, clicks and conversions; monitor relative rates. Identify internal vs external users, and human vs system users where known. Perform analysis, near real-time if possible, for common patterns in users’ system fingerprints, IP addresses and HTTP headers (such as User Agent, cookies, etc.), especially for requests during traffic peaks, and track relationship to conversation ratios."
+OAT-003,Instrumentation,Not applicable
+OAT-003,Contract,"Build limitations in liability (of payment) on fraudulent clicks and impressions in contractual and commercial terms. Define end user T&Cs, employee contracts, corporate policies etc to ensure users understand that Ad Fraud is not permissible."
+OAT-003,Response,Define actions to be taken in the event an Ad Fraud attack is detected.
+OAT-003,Sharing,Participate in any fraud detection and prevention arrangements offered by the advertisement providers.

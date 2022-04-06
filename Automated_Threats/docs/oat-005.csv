@@ -1,0 +1,15 @@
+﻿Identity Code,Class,Remediation
+OAT-005,Value,"Consider increasing the real or apparent availability of the goods/services. Consider limiting the value of the good/service by tying its subsequent use specifically to one user, thus reducing its resale value. Consider penalising rapid and/or repeated purchase."
+OAT-005,Requirements,"Document acceptable use of relevant functions (e.g. selection, ordering, booking, reserving, checkout); define additional requirements."
+OAT-005,Testing,Define test cases for OAT-005 Scalping that confirm the application will detect and/or prevent users attempting to obtain limited-availability/preferred goods by unfair methods.
+OAT-005,Capacity,Not applicable
+OAT-005,Obfuscation,"Consider randomising the content and URLs of relevant functions, tying these changes to the individual user’s session, verifying the changes at each request, and restricting any identified automated usage."
+OAT-005,Fingerprinting,Consider identifying and restricting automated usage by fingerprinting the User Agent for its unique characteristics.
+OAT-005,Reputation,"Consider identifying and restricting automated usage by reputation methods. In particular, consider using geolocation and/or IP address block lists and/or reputation services to prevent access to the good/service allocation functions."
+OAT-005,Authentication,"Consider requiring identity authentication, re-authentication or some other increased authentication assurance for access to relevant functions, for all users or when there is a suspicion that Scalping is occurring."
+OAT-005,Rate,Consider adding random delays in responses. Consider implementing queuing systems.
+OAT-005,Monitoring,Log good/service allocation; monitor rate of depletion. Monitor availability of goods on secondary markets.
+OAT-005,Instrumentation,"Consider blocking or delaying access or delaying access by users in a particular session, IP address/ range or geolocation once Monitoring has identified a real Scalping attack, or other anomalous behaviour that has identified the user as an attacker."
+OAT-005,Contract,Define T&Cs to explicitly define acceptable use of the application and permissible re-sale/re-use of the good/service by another party. Use employment contracts to ban staff from leaking information about availability and other properties of upcoming goods/service releases.
+OAT-005,Response,Define actions to be taken in the event a Scalping attack is detected.
+OAT-005,Sharing,Participate in threat intelligence exchanges and contribute Scalping attack data to sector-wide sharing systems.
